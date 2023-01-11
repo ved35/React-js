@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        button{
+            height: 50px;
+            width: 250px;
+            font-size: 32px;
+        }
+    </Style>
+</head>
+<body>
+
+        <!-- The following function return true if the parameter  age is greater than 18 otherwisw it ask for a confirmation and result its result: -->
+
+    <form action="">
+        Enter age :- <input type="text" id="num">
+    </form>              
+    <button onclick="return click_func()">Click here</button>
+    <script>
+        function click_func(){
+            let num = document.getElementById("num");
+            if (num > 18) {
+                return true;
+            }
+            else{
+                return confirm("Did your parent allow you?");
+            }
+        }
+    </script>
+</body>
+</html>
