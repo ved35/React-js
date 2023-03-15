@@ -1,0 +1,71 @@
+.Feature{
+    height: 90%vh;
+    position: relative;
+}
+.Feature .category{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 12;
+}
+.Feature .category select{
+    background-color: #0b0b0b;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Feature img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Feature .info{
+    width: 35%;
+    position: absolute;
+    left: 130px;
+    bottom: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+}
+.Feature .info img{
+    width: 400px;
+}
+.Feature .info .desc{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.Feature .info .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.Feature .buttons button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500    ;
+}
+.Feature .buttons .play{
+    background-color: white;
+    color: #0b0b0b ;
+}
+.Feature .buttons .more{
+    background-color: gray;
+    color: white;
+}

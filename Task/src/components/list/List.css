@@ -1,0 +1,24 @@
+.List{
+    margin: 50px 0px ;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.watch{
+    padding-left: 35px;
+    margin: 25px 0px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.prev-ba{
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 77777777;
+    width: 30px;
+}

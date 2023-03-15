@@ -1,0 +1,10 @@
+.listitem{
+    text-align: center;
+    height: 300px;
+    width: 240px;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
